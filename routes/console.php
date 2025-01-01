@@ -16,4 +16,4 @@ Artisan::command('inspire', function () {
 Schedule::call(function () {
     // Call the fetchEmails method
     App::make(EmailController::class)->fetchEmails();
-})->everyFiveSeconds();;
+})->everyFiveSeconds();
